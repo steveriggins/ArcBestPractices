@@ -23,14 +23,14 @@
 
 /* Begin PBXFileReference section */
 		0084796F167ACA4A005C1BBB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
-		00B992FF167AB62700FE4C77 /* ArcBestPracticies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBestPracticies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B992FF167AB62700FE4C77 /* ArcBestPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcBestPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B99302167AB62700FE4C77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00B99304167AB62700FE4C77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00B99306167AB62700FE4C77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		00B9930A167AB62700FE4C77 /* ArcBestPracticies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArcBestPracticies-Info.plist"; sourceTree = "<group>"; };
+		00B9930A167AB62700FE4C77 /* ArcBestPractices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArcBestPractices-Info.plist"; sourceTree = "<group>"; };
 		00B9930C167AB62700FE4C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B9930E167AB62700FE4C77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00B99310167AB62700FE4C77 /* ArcBestPracticies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArcBestPracticies-Prefix.pch"; sourceTree = "<group>"; };
+		00B99310167AB62700FE4C77 /* ArcBestPractices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArcBestPractices-Prefix.pch"; sourceTree = "<group>"; };
 		00B99311167AB62700FE4C77 /* WMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMAppDelegate.h; sourceTree = "<group>"; };
 		00B99312167AB62700FE4C77 /* WMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMAppDelegate.m; sourceTree = "<group>"; };
 		00B99314167AB62700FE4C77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		00B992F6167AB62700FE4C77 = {
 			isa = PBXGroup;
 			children = (
-				00B99308167AB62700FE4C77 /* ArcBestPracticies */,
+				00B99308167AB62700FE4C77 /* ArcBestPractices */,
 				00B99301167AB62700FE4C77 /* Frameworks */,
 				00B99300167AB62700FE4C77 /* Products */,
 			);
@@ -67,7 +67,7 @@
 		00B99300167AB62700FE4C77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00B992FF167AB62700FE4C77 /* ArcBestPracticies.app */,
+				00B992FF167AB62700FE4C77 /* ArcBestPractices.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		00B99308167AB62700FE4C77 /* ArcBestPracticies */ = {
+		00B99308167AB62700FE4C77 /* ArcBestPractices */ = {
 			isa = PBXGroup;
 			children = (
 				00B99311167AB62700FE4C77 /* WMAppDelegate.h */,
@@ -93,16 +93,16 @@
 				00B99309167AB62700FE4C77 /* Supporting Files */,
 				0084796F167ACA4A005C1BBB /* README.md */,
 			);
-			path = ArcBestPracticies;
+			path = ArcBestPractices;
 			sourceTree = "<group>";
 		};
 		00B99309167AB62700FE4C77 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00B9930A167AB62700FE4C77 /* ArcBestPracticies-Info.plist */,
+				00B9930A167AB62700FE4C77 /* ArcBestPractices-Info.plist */,
 				00B9930B167AB62700FE4C77 /* InfoPlist.strings */,
 				00B9930E167AB62700FE4C77 /* main.m */,
-				00B99310167AB62700FE4C77 /* ArcBestPracticies-Prefix.pch */,
+				00B99310167AB62700FE4C77 /* ArcBestPractices-Prefix.pch */,
 				00B99314167AB62700FE4C77 /* Default.png */,
 				00B99316167AB62700FE4C77 /* Default@2x.png */,
 				00B99318167AB62700FE4C77 /* Default-568h@2x.png */,
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00B992FE167AB62700FE4C77 /* ArcBestPracticies */ = {
+		00B992FE167AB62700FE4C77 /* ArcBestPractices */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00B99322167AB62700FE4C77 /* Build configuration list for PBXNativeTarget "ArcBestPracticies" */;
+			buildConfigurationList = 00B99322167AB62700FE4C77 /* Build configuration list for PBXNativeTarget "ArcBestPractices" */;
 			buildPhases = (
 				00B992FB167AB62700FE4C77 /* Sources */,
 				00B992FC167AB62700FE4C77 /* Frameworks */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = ArcBestPracticies;
+			name = ArcBestPractices;
 			productName = ArcBestPracticies;
-			productReference = 00B992FF167AB62700FE4C77 /* ArcBestPracticies.app */;
+			productReference = 00B992FF167AB62700FE4C77 /* ArcBestPractices.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +140,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = WalmartLabs;
 			};
-			buildConfigurationList = 00B992FA167AB62700FE4C77 /* Build configuration list for PBXProject "ArcBestPracticies" */;
+			buildConfigurationList = 00B992FA167AB62700FE4C77 /* Build configuration list for PBXProject "ArcBestPractices" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00B992FE167AB62700FE4C77 /* ArcBestPracticies */,
+				00B992FE167AB62700FE4C77 /* ArcBestPractices */,
 			);
 		};
 /* End PBXProject section */
@@ -266,9 +266,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ArcBestPracticies/ArcBestPracticies-Prefix.pch";
-				INFOPLIST_FILE = "ArcBestPracticies/ArcBestPracticies-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ArcBestPractices/ArcBestPractices-Prefix.pch";
+				INFOPLIST_FILE = "ArcBestPractices/ArcBestPractices-Info.plist";
+				PRODUCT_NAME = ArcBestPractices;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -277,9 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ArcBestPracticies/ArcBestPracticies-Prefix.pch";
-				INFOPLIST_FILE = "ArcBestPracticies/ArcBestPracticies-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ArcBestPractices/ArcBestPractices-Prefix.pch";
+				INFOPLIST_FILE = "ArcBestPractices/ArcBestPractices-Info.plist";
+				PRODUCT_NAME = ArcBestPractices;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00B992FA167AB62700FE4C77 /* Build configuration list for PBXProject "ArcBestPracticies" */ = {
+		00B992FA167AB62700FE4C77 /* Build configuration list for PBXProject "ArcBestPractices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00B99320167AB62700FE4C77 /* Debug */,
@@ -296,7 +296,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00B99322167AB62700FE4C77 /* Build configuration list for PBXNativeTarget "ArcBestPracticies" */ = {
+		00B99322167AB62700FE4C77 /* Build configuration list for PBXNativeTarget "ArcBestPractices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00B99323167AB62700FE4C77 /* Debug */,

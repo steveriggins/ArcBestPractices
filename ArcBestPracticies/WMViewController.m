@@ -43,9 +43,20 @@
 
 - (void)ABPEarlyReleaseExample
 {
+#if 1
+	// Problematic code
 	CGColorRef redRef = [UIColor colorWithRed:0.85 green:0.85 blue:0.35 alpha:0.5].CGColor;
 	
 	[[self.view layer] setBackgroundColor: redRef];
+
+#else 
+	// Working code
+	UIColor *color = [UIColor colorWithRed:0.85 green:0.85 blue:0.35 alpha:0.5];
+	
+	[[self.view layer] setBackgroundColor: color.CGColor];
+
+#endif
+	
 	
 }
 

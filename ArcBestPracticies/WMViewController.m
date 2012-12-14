@@ -27,12 +27,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)testAutoReleasingAction:(id)sender
+- (IBAction)ABPEarlyReleaseExampleAction:(id)sender
 {
-	[self testAutoReleasing];
+	[self ABPEarlyReleaseExample];
 }
 
-- (void)testAutoReleasing
+/*
+	This example exhibits an issue when run on a device in which ARC releases
+	the UIColor at the end of the expression that assigns the CGColorRef.
+ 
+	This results in redRef pointing into a now released UIColor object, and when later used, crashes.
+ 
+	You must have compiler settings set to fastest and run on a device to trigger this crash
+*/
+
+- (void)ABPEarlyReleaseExample
 {
 	CGColorRef redRef = [UIColor colorWithRed:0.85 green:0.85 blue:0.35 alpha:0.5].CGColor;
 	
